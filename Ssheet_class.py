@@ -59,6 +59,7 @@ class Ssheet:
         return row_dict
 
     def add_rows(self, add_rows):
+        print(self.id, add_rows)
         ss_add_rows(self.ss, self.id, add_rows)
         return
 
